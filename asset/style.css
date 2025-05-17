@@ -50,7 +50,7 @@ a:hover,a:focus{
 .decs-content {
 	padding-top:50px;
 	position: relative;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 
@@ -78,31 +78,31 @@ Swiper Slider
 }
 .textSwiper{
     height: 80px;
+    width:650px;
+    margin-left: 0;
     margin-bottom: 40px;
 
 }
-.card-img-top{width:auto;}
-
-.nav-menu .list-inline li {
-  padding: 0 19px;
-}
-.nav-menu li a {
-  text-transform: none;
-  text-decoration: none;
+.textSwiper .swiper-vertical>.swiper-wrapper{
+    gap:20px;
 }
 
-.nav-menu li.last:hover {
-
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  color: #fff !important;
+.nav-pills{
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 70px;
 }
-.nav-menu li.last:hover a {
-  color: #ff7e00 !important;
+.nav-pills .nav-link{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    min-width: 150px;
+}
+.tab-content{
+    max-width:1200px;
+    margin: 0 auto;
 }
 /*--------------------------------------------------------------
 Header
